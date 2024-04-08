@@ -1,6 +1,6 @@
 # Finsler-Laplace-Beltrami Operators with Application to Shape Analysis, CVPR 2024
 
-Welcome to the official page of the paper [Finsler-Laplace-Beltrami Operators with Application to Shape Analysis (CVPR 2024)]([https://arxiv.org/pdf/2404.03999.pdf]).
+Welcome to the official page of the paper [Finsler-Laplace-Beltrami Operators with Application to Shape Analysis (CVPR 2024)](https://arxiv.org/pdf/2404.03999.pdf).
 
 ## Open-Source Implementation
 
