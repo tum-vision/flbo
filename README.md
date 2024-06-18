@@ -1,10 +1,9 @@
 # Finsler-Laplace-Beltrami Operators with Application to Shape Analysis, CVPR 2024
 
-Welcome to the official page of the paper [Finsler-Laplace-Beltrami Operators with Application to Shape Analysis (CVPR 2024)](https://arxiv.org/pdf/2404.03999.pdf). You can find a video presentation [here](https://www.youtube.com/watch?v=JCmblM9A1WI).
+Welcome to the official page of the paper [Finsler-Laplace-Beltrami Operators with Application to Shape Analysis (CVPR 2024)](https://arxiv.org/pdf/2404.03999.pdf). You can find a video presentation [here](https://www.youtube.com/watch?v=JCmblM9A1WI).  
 
-## Open-Source Implementation
+![Figure 1](./finsler_overview_first_page.jpg)
 
-The official implementation of FLBO will be available soon.
 
 ## Abstract
 
@@ -14,10 +13,29 @@ The Laplace-Beltrami operator (LBO) emerges from studying manifolds equipped wit
 If you find our work useful in your research, please consider citing:
 
 ```bibtex
-@article{weber2024finsler,
+@inproceedings{weber2024finsler,
   title={Finsler-Laplace-Beltrami Operators with Application to Shape Analysis},
   author={Weber, Simon and Dag{\`e}s, Thomas and Gao, Maolin and Cremers, Daniel},
-  journal={arXiv preprint arXiv:2404.03999},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={3131--3140},
   year={2024}
+}
+```
+### Shape Matching Application
+
+##### Discretization: An Example
+
+The Matlab file ```calc_flbo.m``` derives the shear and stiffness matrices for the FLBO. 
+
+##### Shape Matching
+
+As a toy illustration of our theoretical insights, we plug the discretized FLBO into Chebyshev spectral CNNs, whose official implementation can be found [on this Github](https://github.com/GCVGroup/ACSCNN), with the following citation:
+```bibtex
+@inproceedings{li2020shape,
+  title={Shape correspondence using anisotropic Chebyshev spectral CNNs},
+  author={Li, Qinsong and Liu, Shengjun and Hu, Ling and Liu, Xinru},
+  booktitle={Proceedings of the IEEE/CVF conference on Computer Vision and Pattern Recognition},
+  pages={14658--14667},
+  year={2020}
 }
 ```
